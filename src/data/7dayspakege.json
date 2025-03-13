@@ -1,0 +1,93 @@
+{
+     "places": [
+       {
+         "id": 1,
+         "title": "Ajmer",
+         "description": "Ajmer is a historic city known for the revered Ajmer Sharif Dargah, the tomb of Sufi saint Khwaja Moinuddin Chishti. Founded by Raja Ajaypal Chauhan in the 7th century, it later became a key Mughal stronghold. The city is also home to Ana Sagar Lake, Taragarh Fort, and the prestigious Mayo College. Ajmer is a gateway to Pushkar and a major pilgrimage site for people of all faiths.",
+         "images": [
+           "https://example.com/ajmer1.jpg",
+           "https://example.com/ajmer2.jpg",
+           "https://example.com/ajmer3.jpg",
+           "https://example.com/ajmer4.jpg"
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Pushkar",
+         "description": "Pushkar is one of the most sacred towns in India, famous for the holy Pushkar Lake and the world’s only Brahma Temple. The town is known for its annual Pushkar Camel Fair, attracting thousands of tourists and traders. With over 500 temples and numerous ghats, Pushkar is a vibrant spiritual and cultural hub. Its colorful bazaars, rooftop cafes, and desert landscapes make it a unique travel destination.",
+         "images": [
+           "https://example.com/pushkar1.jpg",
+           "https://example.com/pushkar2.jpg",
+           "https://example.com/pushkar3.jpg",
+           "https://example.com/pushkar4.jpg"
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Jodhpur",
+         "description": "Jodhpur, also called the 'Blue City,' is famous for its blue-painted houses and the mighty Mehrangarh Fort. Founded by Rao Jodha in 1459, it was the capital of Marwar. The city boasts Umaid Bhawan Palace, Jaswant Thada, and vibrant markets. Its location near the Thar Desert makes it a popular destination for cultural experiences and desert safaris.",
+         "images": [
+           "https://example.com/jodhpur1.jpg",
+           "https://example.com/jodhpur2.jpg",
+           "https://example.com/jodhpur3.jpg",
+           "https://example.com/jodhpur4.jpg"
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Jaisalmer",
+         "description": "Jaisalmer, known as the 'Golden City,' is famous for its yellow sandstone architecture and breathtaking desert scenery. Founded by Maharawal Jaisal Singh in 1156, the city is home to the grand Jaisalmer Fort, which houses palaces, temples, and shops. It is a hotspot for camel safaris, with popular attractions like Sam Sand Dunes and Gadisar Lake.",
+         "images": [
+           "https://example.com/jaisalmer1.jpg",
+           "https://example.com/jaisalmer2.jpg",
+           "https://example.com/jaisalmer3.jpg",
+           "https://example.com/jaisalmer4.jpg"
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Udaipur",
+         "description": "Udaipur, the 'City of Lakes,' was founded by Maharana Udai Singh II in 1559. It is famous for its picturesque lakes like Lake Pichola and Fateh Sagar. The city boasts stunning architecture, including the City Palace, Lake Palace, and Jag Mandir. Udaipur’s romantic setting, rich Rajput heritage, and cultural vibrance make it one of India’s top travel destinations.",
+         "images": [
+           "https://example.com/udaipur1.jpg",
+           "https://example.com/udaipur2.jpg",
+           "https://example.com/udaipur3.jpg",
+           "https://example.com/udaipur4.jpg"
+         ]
+       },
+       {
+         "id": 6,
+         "title": "Mount Abu",
+         "description": "Mount Abu, Rajasthan’s only hill station, is known for its cool climate and breathtaking views. It is home to the famous Dilwara Temples, known for their exquisite marble carvings. Other attractions include Nakki Lake, Guru Shikhar (the highest peak in Rajasthan), and the Sunset Point. Mount Abu is a perfect getaway from the desert heat, offering lush greenery and serene landscapes.",
+         "images": [
+           "https://example.com/mountabu1.jpg",
+           "https://example.com/mountabu2.jpg",
+           "https://example.com/mountabu3.jpg",
+           "https://example.com/mountabu4.jpg"
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Chittorgarh",
+         "description": "Chittorgarh, the 'Land of Bravery,' is home to the largest fort in India, Chittorgarh Fort, a UNESCO World Heritage Site. Built in the 7th century by the Maurya rulers, it symbolizes Rajput valor and sacrifice. The fort houses Vijay Stambh, Rana Kumbha Palace, and Padmini’s Palace. Chittorgarh is deeply linked to the legendary tale of Rani Padmini and the Rajputana spirit.",
+         "images": [
+           "https://example.com/chittorgarh1.jpg",
+           "https://example.com/chittorgarh2.jpg",
+           "https://example.com/chittorgarh3.jpg",
+           "https://example.com/chittorgarh4.jpg"
+         ]
+       },
+       {
+         "id": 8,
+         "title": "Jaipur",
+         "description": "Jaipur, the 'Pink City,' is the capital of Rajasthan and one of India's most famous tourist destinations. Founded by Maharaja Sawai Jai Singh II in 1727, it is known for its stunning architecture, including Hawa Mahal, Amber Fort, and City Palace. Jaipur offers a mix of history, culture, and vibrant bazaars, making it a must-visit city in India.",
+         "images": [
+           "https://example.com/jaipur1.jpg",
+           "https://example.com/jaipur2.jpg",
+           "https://example.com/jaipur3.jpg",
+           "https://example.com/jaipur4.jpg"
+         ]
+       }
+     ]
+   }
+   

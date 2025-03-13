@@ -1,0 +1,115 @@
+{
+     "places": [
+       {
+         "id": 1,
+         "title": "Jaipur",
+         "description": "Jaipur, the 'Pink City,' is the capital of Rajasthan and is known for its magnificent forts, palaces, and rich cultural heritage. Founded in 1727 by Maharaja Sawai Jai Singh II, the city is home to iconic landmarks such as Amber Fort, Hawa Mahal, City Palace, and Jantar Mantar. Jaipur is also famous for its vibrant bazaars, traditional Rajasthani cuisine, and grand festivals.",
+         "images": [
+           "https://example.com/jaipur1.jpg",
+           "https://example.com/jaipur2.jpg",
+           "https://example.com/jaipur3.jpg",
+           "https://example.com/jaipur4.jpg"
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Bikaner",
+         "description": "Bikaner, founded in 1488 by Rao Bika, is famous for its grand Junagarh Fort, ornate palaces, and the Karni Mata Temple, home to thousands of rats. The city is known for its camel breeding farms, delicious Bikaneri Bhujia, and the annual Camel Festival. With its red sandstone architecture and desert landscape, Bikaner offers a perfect blend of history and culture.",
+         "images": [
+           "https://example.com/bikaner1.jpg",
+           "https://example.com/bikaner2.jpg",
+           "https://example.com/bikaner3.jpg",
+           "https://example.com/bikaner4.jpg"
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Jodhpur",
+         "description": "Jodhpur, the 'Blue City,' is renowned for its stunning Mehrangarh Fort, towering above the city. Founded by Rao Jodha in 1459, it boasts attractions like Umaid Bhawan Palace, Jaswant Thada, and bustling markets. Its blue-painted houses, historical richness, and desert proximity make it a must-visit destination in Rajasthan.",
+         "images": [
+           "https://example.com/jodhpur1.jpg",
+           "https://example.com/jodhpur2.jpg",
+           "https://example.com/jodhpur3.jpg",
+           "https://example.com/jodhpur4.jpg"
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Jaisalmer",
+         "description": "Jaisalmer, the 'Golden City,' is famous for its yellow sandstone architecture and the majestic Jaisalmer Fort, a UNESCO World Heritage Site. Founded in 1156 by Maharawal Jaisal Singh, it offers desert safaris, camel rides, and stunning views of the Thar Desert. The Patwon Ki Haveli and Sam Sand Dunes add to its charm.",
+         "images": [
+           "https://example.com/jaisalmer1.jpg",
+           "https://example.com/jaisalmer2.jpg",
+           "https://example.com/jaisalmer3.jpg",
+           "https://example.com/jaisalmer4.jpg"
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Udaipur",
+         "description": "Udaipur, the 'City of Lakes,' was founded in 1559 by Maharana Udai Singh II. It is known for its breathtaking lakes like Lake Pichola, Fateh Sagar, and the magnificent City Palace. Udaipur's romantic ambiance, historic palaces, and cultural heritage make it one of the most picturesque cities in India.",
+         "images": [
+           "https://example.com/udaipur1.jpg",
+           "https://example.com/udaipur2.jpg",
+           "https://example.com/udaipur3.jpg",
+           "https://example.com/udaipur4.jpg"
+         ]
+       },
+       {
+         "id": 6,
+         "title": "Mount Abu",
+         "description": "Mount Abu, Rajasthan’s only hill station, is famous for its cool climate, lush greenery, and the beautifully carved Dilwara Temples. Located in the Aravalli Range, it offers attractions like Nakki Lake, Guru Shikhar (the highest peak in Rajasthan), and Sunset Point. It is a perfect escape from the desert heat.",
+         "images": [
+           "https://example.com/mountabu1.jpg",
+           "https://example.com/mountabu2.jpg",
+           "https://example.com/mountabu3.jpg",
+           "https://example.com/mountabu4.jpg"
+         ]
+       },
+       {
+         "id": 7,
+         "title": "Chittorgarh",
+         "description": "Chittorgarh is home to India's largest fort, Chittorgarh Fort, which symbolizes Rajput valor and sacrifice. Built in the 7th century by the Mauryas, the fort houses Vijay Stambh, Rana Kumbha Palace, and Rani Padmini’s Palace. The legendary tales of Rani Padmini and the Rajputana spirit make it a site of historical significance.",
+         "images": [
+           "https://example.com/chittorgarh1.jpg",
+           "https://example.com/chittorgarh2.jpg",
+           "https://example.com/chittorgarh3.jpg",
+           "https://example.com/chittorgarh4.jpg"
+         ]
+       },
+       {
+         "id": 8,
+         "title": "Ajmer",
+         "description": "Ajmer is a historic city known for the revered Ajmer Sharif Dargah, the tomb of Sufi saint Khwaja Moinuddin Chishti. Founded by Raja Ajaypal Chauhan in the 7th century, it later became a key Mughal stronghold. The city is also home to Ana Sagar Lake, Taragarh Fort, and the prestigious Mayo College.",
+         "images": [
+           "https://example.com/ajmer1.jpg",
+           "https://example.com/ajmer2.jpg",
+           "https://example.com/ajmer3.jpg",
+           "https://example.com/ajmer4.jpg"
+         ]
+       },
+       {
+         "id": 9,
+         "title": "Pushkar",
+         "description": "Pushkar is one of the most sacred towns in India, famous for the holy Pushkar Lake and the world’s only Brahma Temple. The town is known for its annual Pushkar Camel Fair, attracting thousands of tourists. With over 500 temples and numerous ghats, Pushkar is a vibrant spiritual and cultural hub.",
+         "images": [
+           "https://example.com/pushkar1.jpg",
+           "https://example.com/pushkar2.jpg",
+           "https://example.com/pushkar3.jpg",
+           "https://example.com/pushkar4.jpg"
+         ]
+       },
+       {
+         "id": 10,
+         "title": "Ranthambore",
+         "description": "Ranthambore is one of India's most famous wildlife reserves, known for its population of Bengal tigers. The Ranthambore National Park is home to diverse flora and fauna, ancient ruins, and Ranthambore Fort, a UNESCO World Heritage Site. The park offers thrilling jungle safaris and is a paradise for wildlife enthusiasts and photographers.",
+         "images": [
+           "https://example.com/ranthambore1.jpg",
+           "https://example.com/ranthambore2.jpg",
+           "https://example.com/ranthambore3.jpg",
+           "https://example.com/ranthambore4.jpg"
+         ]
+       }
+     ]
+   }
+   

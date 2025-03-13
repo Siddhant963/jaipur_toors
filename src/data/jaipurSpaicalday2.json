@@ -1,0 +1,71 @@
+{
+     "places": [
+       {
+         "id": 1,
+         "title": "Nahargarh Fort",
+         "description": "Nahargarh Fort, built in 1734 by Maharaja Sawai Jai Singh II, stands on the Aravalli hills and offers a stunning panoramic view of Jaipur. It was originally built for defense but later served as a retreat for the royal family. The fort is known for its intricate architecture, Madhavendra Bhawan, and its connection to the mysterious spirit of Nahar Singh Bhomia.",
+         "images": [
+           "https://example.com/nahargarh1.jpg",
+           "https://example.com/nahargarh2.jpg",
+           "https://example.com/nahargarh3.jpg",
+           "https://example.com/nahargarh4.jpg"
+         ]
+       },
+       {
+         "id": 2,
+         "title": "Jaigarh Fort",
+         "description": "Jaigarh Fort, built by Maharaja Jai Singh II in 1726, is known as the 'Victory Fort' and is home to the world’s largest cannon on wheels, Jaivana. This massive fort was constructed to protect Amber Fort and contains granaries, water reservoirs, and a well-planned defense system. The underground passages connecting it to Amber Fort add to its strategic importance.",
+         "images": [
+           "https://example.com/jaigarh1.jpg",
+           "https://example.com/jaigarh2.jpg",
+           "https://example.com/jaigarh3.jpg",
+           "https://example.com/jaigarh4.jpg"
+         ]
+       },
+       {
+         "id": 3,
+         "title": "Amber Fort",
+         "description": "Amber Fort, built in 1592 by Raja Man Singh I, is one of Rajasthan’s most stunning forts. It features a blend of Rajput and Mughal architecture, with stunning courtyards, intricate mirror work in the Sheesh Mahal, and the magnificent Ganesh Pol. The fort overlooks Maota Lake and is known for its elephant rides and light and sound show.",
+         "images": [
+           "https://example.com/amber1.jpg",
+           "https://example.com/amber2.jpg",
+           "https://example.com/amber3.jpg",
+           "https://example.com/amber4.jpg"
+         ]
+       },
+       {
+         "id": 4,
+         "title": "Panna Meena Ka Kund",
+         "description": "Panna Meena Ka Kund is a historic stepwell near Amber Fort, built in the 16th century. This beautifully symmetrical water reservoir was used for water conservation and social gatherings. The stepwell’s unique architecture, with a series of zigzagging stairs, makes it a picturesque and serene attraction in Jaipur.",
+         "images": [
+           "https://example.com/pannameena1.jpg",
+           "https://example.com/pannameena2.jpg",
+           "https://example.com/pannameena3.jpg",
+           "https://example.com/pannameena4.jpg"
+         ]
+       },
+       {
+         "id": 5,
+         "title": "Chulgiri",
+         "description": "Chulgiri Jain Temple is a sacred pilgrimage site located atop a hill in Jaipur. Built in the 1950s, this Digambara Jain temple is dedicated to Lord Parshvanath. It offers breathtaking views of the Aravalli ranges and provides a peaceful retreat for visitors. The temple is also known for its grand white marble idol of Lord Parshvanath.",
+         "images": [
+           "https://example.com/chulgiri1.jpg",
+           "https://example.com/chulgiri2.jpg",
+           "https://example.com/chulgiri3.jpg",
+           "https://example.com/chulgiri4.jpg"
+         ]
+       },
+       {
+         "id": 6,
+         "title": "Gulab Bagh",
+         "description": "Gulab Bagh, also known as Sajjan Niwas Garden, is the largest garden in Udaipur, built by Maharana Sajjan Singh in the 19th century. This beautiful garden is known for its lush greenery, variety of roses, and the Victoria Hall Museum. It also houses a library with ancient manuscripts and a zoo, making it a must-visit attraction for nature lovers.",
+         "images": [
+           "https://example.com/gulabbagh1.jpg",
+           "https://example.com/gulabbagh2.jpg",
+           "https://example.com/gulabbagh3.jpg",
+           "https://example.com/gulabbagh4.jpg"
+         ]
+       }
+     ]
+   }
+   
