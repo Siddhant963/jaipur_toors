@@ -4,54 +4,51 @@ const Pakages = () => {
   const pakedata = [
      {
        id:1,
-       img:"/images/p-1.jpg" ,
-       name:"mumbai",
-       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!",
+       img:"/images/Pushkar/img3.jpeg" ,
+       name:"5 Days Tour package",
+       desc: "Jaipur , Ajmer , Pushkar , Chittorgarh ,Udaipur , Mount Abu ",
        price: 120.00,
        discount: 90.00
 
      },
      {
        id:2,
-       img:"/images/p-2.jpg" ,
-       name:"hawaii",
-       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!",
+       img:"/images/Jodhpur/img1.jpeg" ,
+       name:"5 Days Tour package II",
+       desc: "Ajmer , Pushkar, Jodhpur, Jaisalmer, Udaipur, Jaipur ",
        price: 120.00,
        discount: 90.00
 
      },
      {    id:3,
-          img:"/images/p-3.jpg" ,
-          name:"sydney",
-          desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!",
+          img:"/images/Chittorgarh/img2.jpeg" ,
+          name:"7 Days Tour package",
+          desc: "Ajmer, Pushkar, jodhpur, Jaisalmer, Udaipur, Mount abu, Chittorgarh , jaipur ",
           price: 120.00,
           discount: 90.00
      },
      {
           id:4,
-          img:"/images/p-4.jpg" ,
-          name:"paris",
-          desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!",
+          img:"/images/Ranthambore/img2.jpeg" ,
+          name:"9 Days Tour package",
+          desc: "jaipur, Bikaner, jodhpur, jaisalmer, Udaipur, Mount abu, Chittorgarh, Ajmer ,Pushkar, Ranthambore ",
           price: 120.00,
           discount: 90.00
    
         },
         {
           id:5,
-          img:"/images/p-5.jpg" ,
-          name:"tokyo",
-          desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!",
-          price: 120.00,
-          discount: 90.00
+          img:"/images/hawa_mehel/img1.jpeg" ,
+          name:"2 Days Tour jaipur I (spaical)",
+          desc: "jaipur, birla mandir , Albert Hall Museum,Hawa Mahal, Jantar Mantar, City Palace, Khazana Mahal ,Jal Mahal"
    
         },
         {
           id:6,
-          img:"/images/p-6.jpg" ,
-          name:"eypt",
-          desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!",
-          price: 120.00,
-          discount: 90.00
+          img:"/images/Nahargarh_fort/img1.jpeg" ,
+          name:"2 Days Tour jaipur II (spaical)",
+          desc: "Nahargarh Fort, Jaigarh Fort, Amber Fort , Panna Meena Ka Kund, Chulgiri ,Gulab Bagh"
+      
    
         }
      
@@ -78,8 +75,8 @@ const Pakages = () => {
           <div className="box" key={data.id}>
           <img src={data.img} alt=""/>
           <div className="content">
-            <h3> <i className="fas fa-map-marker-alt"></i> {data.name} </h3>
-            <p>{data.desc}</p>
+            <h3>  {data.name} </h3>
+            <p><i className="fas fa-map-marker-alt"></i> {data.desc}</p>
             <div className="stars">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
@@ -87,8 +84,8 @@ const Pakages = () => {
               <i className="fas fa-star"></i>
               <i className="far fa-star"></i>
             </div>
-            <div className="price">{data.discount} <span>{data.price}</span> </div>
-            <a href="#" className="btn">book now</a>
+          
+            <a href={`/packages/${data.id}`}  className="btn">Know More..</a>
           </div>
         </div>  
      )

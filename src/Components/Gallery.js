@@ -4,57 +4,57 @@ const Gallery = () => {
   const gallerydata = [
           {
                id: 1,
-               img: "/images/g-1.jpg",
-               title: "amazing places",
-               description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+               img: "/images/jaipur/img2.jpeg",
+               title: "Jaipur",
+               description: "Jaipur, known as the 'Pink City,' is the capital of Rajasthan and is famous for its grand palaces, forts, and vibrant markets. "
           },
           {
                id: 2,
-               img: "/images/g-2.jpg",
-               title: "amazing places",
-               description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+               img: "/images/Ajmer/img2.jpeg",
+               title: "Ajmer",
+               description: "Ajmer is a historic city best known for the Ajmer Sharif Dargah, the tomb of Sufi saint Khwaja Moinuddin Chishti."
           },
           {
                id: 3,
-               img: "/images/g-3.jpg",
-               title: "amazing places",
-               description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+               img: "/images/Pushkar/img1.jpeg",
+               title: "Pushkar",
+               description: "only dedicated Brahma Temple. The town hosts the grand Pushkar Camel Fair, one of the largest livestock fairs in the world."
           },
           {
                id: 4,
-               img: "/images/g-4.jpg",
-               title: "amazing places",
-               description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+               img: "/images/Chittorgarh/img2.jpeg",
+               title: "Chittorgarh",
+               description: "the largest fort in India, symbolizing Rajput bravery and sacrifice. Built in the 7th century by the Maurya dynasty."
           },
           {
                id: 5,
-               img: "/images/g-5.jpg",
-               title: "amazing places",
-               description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+               img: "/images/Udaipur/img1.jpeg",
+               title: "Udaipur",
+               description: "Udaipur, also called the 'City of Lakes,' is known for its breathtaking lakes, royal palaces."
           },
           {
                id: 6,
-               img: "/images/g-6.jpg",
-               title: "amazing places",
-               description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+               img: "/images/Mount_Abu/img2.jpeg",
+               title: "Mount Abu",
+               description: "Mount Abu is the only hill station in Rajasthan, offering a refreshing escape from the desert heat with its lush greenery and cool climate."
           },
           {
                id: 7,
-               img: "/images/g-7.jpg",
-               title: "amazing places",
-               description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+               img: "/images/Jaisalmer/img1.jpeg",
+               title: "Jaisalmer",
+               description: "Jaisalmer, known as the 'Golden City,' is famous for its yellow sandstone architecture and breathtaking desert scenery."
           },
           {
                id: 8,
-               img: "/images/g-8.jpg",
-               title: "amazing places",
-               description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+               img: "/images/Ranthambore/img2.jpeg",
+               title: "Ranthambore",
+               description: "Ranthambore is one of India's most famous wildlife reserves, known for its population of Bengal tigers."
           },
           {
                id: 9,
-               img: "/images/g-9.jpg",
-               title: "amazing places",
-               description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+               img: "/images/Bikaner/img1.jpeg",
+               title: "Bikaner ",
+               description: "Bikaner, founded in 1488 by Rao Bika, is famous for its grand Junagarh Fort, ornate palaces, and the Karni Mata Temple, home to thousands of rats.The city is known for its camel breeding farms, delicious Bikaneri Bhujia, and the annual Camel Festival"
           }
      ]
   return (

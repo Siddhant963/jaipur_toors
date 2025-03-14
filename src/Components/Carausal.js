@@ -18,11 +18,11 @@ const Carausal = () => {
         </div>
 
         <div className="controls">
-          {["/videos/vid-1.mp4",
-           "/videos/vid-2.mp4", 
-           "/videos/vid-3.mp4", 
-           "/videos/vid-4.mp4",
-            "/videos/vid-5.mp4"].map((src, index) => (
+          {["/videos/v1.mp4",
+           "/videos/v2.mp4", 
+           "/videos/v3.mp4", 
+           "/videos/v4.mp4",
+            "/videos/v5.mp4"].map((src, index) => (
             <span
               key={index}
               className={`vid-btn ${activeVideo === src ? 'active' : ''}`}
