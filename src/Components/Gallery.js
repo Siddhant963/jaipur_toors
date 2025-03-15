@@ -34,7 +34,7 @@ const Gallery = () => {
           },
           {
                id: 6,
-               img: "/images/Mount_Abu/img2.jpeg",
+               img: "/images/mount_abu/img2.jpeg",
                title: "Mount Abu",
                description: "Mount Abu is the only hill station in Rajasthan, offering a refreshing escape from the desert heat with its lush greenery and cool climate."
           },

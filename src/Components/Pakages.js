@@ -13,7 +13,7 @@ const Pakages = () => {
      },
      {
        id:2,
-       img:"/images/Jodhpur/img1.jpeg" ,
+       img:"/images/jodhpur/img1.jpeg" ,
        name:"5 Days Tour package II",
        desc: "Ajmer , Pushkar, Jodhpur, Jaisalmer, Udaipur, Jaipur ",
        price: 120.00,
@@ -45,7 +45,7 @@ const Pakages = () => {
         },
         {
           id:6,
-          img:"/images/Nahargarh_fort/img1.jpeg" ,
+          img:"/images/Nahargarh_Fort/img1.jpeg" ,
           name:"2 Days Tour jaipur II (spaical)",
           desc: "Nahargarh Fort, Jaigarh Fort, Amber Fort , Panna Meena Ka Kund, Chulgiri ,Gulab Bagh"
       
