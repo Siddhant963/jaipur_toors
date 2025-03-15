@@ -129,6 +129,11 @@ header .search-bar-container.active {
  clip-path: polygon(0 0,100% 0, 100% 100%, 0 100%);
 }
 
+.service-btn{
+  background-color: #ffa500;
+  font-size: 20px;
+  padding: 5px;
+}
 
 header .search-bar-container #search-bar {
  width: 100%;

@@ -1,4 +1,5 @@
 import React from 'react';
+import "@fortawesome/fontawesome-free";
 
 
 const Navbar = ({ onLoginClick }) => {
@@ -7,18 +8,17 @@ const Navbar = ({ onLoginClick }) => {
       <header>
         <div id="menu-bar" className="fas fa-bars"></div>
 
-        <a href="#" className="logo">
+        <a href="/" className="logo">
           Jaipur_<span>T</span>ravels
         </a>
 
         <nav className="navbar">
-          <a href="#home">home</a>
-          <a href="#book">book</a>
-          <a href="#packages">packages</a>
-          <a href="#services">services</a>
-          <a href="#gallery">gallery</a>
-          <a href="#review">review</a>
-          <a href="#contact">contact</a>
+          <a href="/">home</a>
+        
+          <a href="/packages">packages</a>
+          <a href="/fecilitys">services</a>
+          <a href="/gallery">gallery</a>
+          <a href="/contact">contact</a>
         </nav>
 
         <div className="icons">

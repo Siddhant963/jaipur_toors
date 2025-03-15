@@ -1,22 +1,14 @@
 import React from 'react'
+import  "bootstrap/dist/css/bootstrap.min.css"
 
-const Busservicepage = () => {
-    const products = [
-      { id: 1, name: "The Catalyzer", price: "$16.00", img: "https://dummyimage.com/420x260" },
-      { id: 2, name: "Shooting Stars", price: "$21.15", img: "https://dummyimage.com/421x261" },
-      { id: 3, name: "Neptune", price: "$12.00", img: "https://dummyimage.com/422x262" },
-      { id: 4, name: "The 400 Blows", price: "$18.40", img: "https://dummyimage.com/423x263" },
-      { id: 5, name: "The Catalyzer", price: "$16.00", img: "https://dummyimage.com/424x264" },
-      { id: 6, name: "Shooting Stars", price: "$21.15", img: "https://dummyimage.com/425x265" },
-      { id: 7, name: "Neptune", price: "$12.00", img: "https://dummyimage.com/427x267" },
-      { id: 8, name: "The 400 Blows", price: "$18.40", img: "https://dummyimage.com/428x268" },
-    ];
+const Busservicepage = (props) => {
+    const products = props.data;
   return (
     <>
     <section className="text-gray-600 body-font">
   <div className="container mx-auto d-flex flex-column flex-md-row align-items-center px-5 py-5">
     <div className="col-md-6 mb-4 mb-md-0">
-      <img className="img-fluid rounded" alt="hero" src="/images/jaipur/namastebusservice.jpg" style={{height:"50vh"}}/>
+      <img className="img-fluid rounded" alt="hero" src="/images/hero.jpg" style={{height:"50vh"}}/>
     </div>
     <div className="col-md-6 text-center text-md-start ps-md-5">
       <h1 className="display-4 fw-medium text-dark text-center fw-bold " style={{color:"yellow"}}>Khamma Ghani<br className="d-none d-lg-inline"/>Jaipur tour point </h1>
@@ -45,7 +37,7 @@ const Busservicepage = () => {
                     <div className="card-body">
                       <h6 className="text-muted text-uppercase mb-1">CATEGORY</h6>
                       <h5 className="card-title">{product.name}</h5>
-                      <p className="card-text">{product.price}</p>
+                      <p className="card-text">{product.capacity}</p>
                     </div>
                   </div>
                 </div>

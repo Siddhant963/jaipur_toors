@@ -103,10 +103,10 @@
           "title": "Jodhpur",
           "description": "Jodhpur, also known as the 'Blue City,' is famous for its stunning blue-painted houses and the majestic Mehrangarh Fort. Founded by Rao Jodha in 1459, it was once the capital of the Marwar kingdom. The city is known for its vibrant markets, Umaid Bhawan Palace, and the scenic Jaswant Thada. Jodhpur’s location at the edge of the Thar Desert makes it a gateway for desert safaris and cultural experiences.",
           "images": [
-            "/images/Jodhpur/img1.jpeg",
-            "/images/Jodhpur/img2.jpeg",
-            "/images/Jodhpur/img3.jpeg",
-            "/images/Jodhpur/img4.jpeg"]
+            "/images/jodhpur/img1.jpeg",
+            "/images/jodhpur/img2.jpeg",
+            "/images/jodhpur/img3.jpeg",
+            "/images/jodhpur/img4.jpeg"]
         },
         {
           "id": 4,
@@ -135,10 +135,10 @@
           "title": "Jaipur",
           "description": "Jaipur, the capital of Rajasthan, is famously known as the 'Pink City' due to its distinct pink-colored buildings. Founded by Maharaja Sawai Jai Singh II in 1727, it is one of India's first planned cities. Jaipur is home to iconic landmarks like Hawa Mahal, Amber Fort, and City Palace. With its vibrant culture, traditional bazaars, and architectural brilliance, Jaipur remains a major tourist attraction in India.",
           "images": [
-            "/images/Jaipur/img1.jpeg",
-            "/images/Jaipur/img2.jpeg",
-            "/images/Jaipur/img3.jpeg",
-            "/images/Jaipur/img4.jpeg"
+            "/images/jaipur/img1.jpeg",
+            "/images/jaipur/img2.jpeg",
+            "/images/jaipur/img3.jpeg",
+            "/images/jaipur/img4.jpeg"
           ]
         }
       ]
@@ -174,10 +174,10 @@
           "title": "Jodhpur",
           "description": "Jodhpur, also called the 'Blue City,' is famous for its blue-painted houses and the mighty Mehrangarh Fort. Founded by Rao Jodha in 1459, it was the capital of Marwar. The city boasts Umaid Bhawan Palace, Jaswant Thada, and vibrant markets. Its location near the Thar Desert makes it a popular destination for cultural experiences and desert safaris.",
           "images": [
-            "/images/Jodhpur/img1.jpeg",
-            "/images/Jodhpur/img2.jpeg",
-            "/images/Jodhpur/img3.jpeg",
-            "/images/Jodhpur/img4.jpeg"
+            "/images/jodhpur/img1.jpeg",
+            "/images/jodhpur/img2.jpeg",
+            "/images/jodhpur/img3.jpeg",
+            "/images/jodhpur/img4.jpeg"
           ]
         },
         {
@@ -229,10 +229,10 @@
           "title": "Jaipur",
           "description": "Jaipur, the 'Pink City,' is the capital of Rajasthan and one of India's most famous tourist destinations. Founded by Maharaja Sawai Jai Singh II in 1727, it is known for its stunning architecture, including Hawa Mahal, Amber Fort, and City Palace. Jaipur offers a mix of history, culture, and vibrant bazaars, making it a must-visit city in India.",
           "images": [
-            "/images/Jaipur/img1.jpeg",
-            "/images/Jaipur/img2.jpeg",
-            "/images/Jaipur/img3.jpeg",
-            "/images/Jaipur/img4.jpeg"
+            "/images/jaipur/img1.jpeg",
+            "/images/jaipur/img2.jpeg",
+            "/images/jaipur/img3.jpeg",
+            "/images/jaipur/img4.jpeg"
           ]
         }
       ]
@@ -246,10 +246,10 @@
           "title": "Jaipur",
           "description": "Jaipur, the 'Pink City,' is the capital of Rajasthan and is known for its magnificent forts, palaces, and rich cultural heritage. Founded in 1727 by Maharaja Sawai Jai Singh II, the city is home to iconic landmarks such as Amber Fort, Hawa Mahal, City Palace, and Jantar Mantar. Jaipur is also famous for its vibrant bazaars, traditional Rajasthani cuisine, and grand festivals.",
           "images": [
-            "/images/Jaipur/img1.jpeg",
-            "/images/Jaipur/img2.jpeg",
-            "/images/Jaipur/img3.jpeg",
-            "/images/Jaipur/img4.jpeg"
+            "/images/jaipur/img1.jpeg",
+            "/images/jaipur/img2.jpeg",
+            "/images/jaipur/img3.jpeg",
+            "/images/jaipur/img4.jpeg"
           ]
         },
         {
@@ -268,10 +268,10 @@
           "title": "Jodhpur",
           "description": "Jodhpur, the 'Blue City,' is renowned for its stunning Mehrangarh Fort, towering above the city. Founded by Rao Jodha in 1459, it boasts attractions like Umaid Bhawan Palace, Jaswant Thada, and bustling markets. Its blue-painted houses, historical richness, and desert proximity make it a must-visit destination in Rajasthan.",
           "images": [
-            "/images/Jodhpur/img1.jpeg",
-            "/images/Jodhpur/img2.jpeg",
-            "/images/Jodhpur/img3.jpeg",
-            "/images/Jodhpur/img4.jpeg"
+            "/images/jodhpur/img1.jpeg",
+            "/images/jodhpur/img2.jpeg",
+            "/images/jodhpur/img3.jpeg",
+            "/images/jodhpur/img4.jpeg"
           ]
         },
         {
@@ -362,10 +362,10 @@
           "title": "Jaipur",
           "description": "Jaipur, the 'Pink City,' is the capital of Rajasthan, known for its royal heritage, stunning architecture, and vibrant markets. Founded in 1727 by Maharaja Sawai Jai Singh II, it is home to iconic landmarks such as Amber Fort, Hawa Mahal, Jantar Mantar, and City Palace. The city is famous for its rich culture, traditional handicrafts, and delicious Rajasthani cuisine.",
           "images": [
-            "/images/Jaipur/img1.jpeg",
-            "/images/Jaipur/img2.jpeg",
-            "/images/Jaipur/img3.jpeg",
-            "/images/Jaipur/img4.jpeg"
+            "/images/jaipur/img1.jpeg",
+            "/images/jaipur/img2.jpeg",
+            "/images/jaipur/img3.jpeg",
+            "/images/jaipur/img4.jpeg"
           ]
         },
         {
@@ -512,10 +512,10 @@
           "description": "Gulab Bagh, also known as Sajjan Niwas Garden, is the largest garden in Udaipur, built by Maharana Sajjan Singh in the 19th century. This beautiful garden is known for its lush greenery, variety of roses, and the Victoria Hall Museum. It also houses a library with ancient manuscripts and a zoo, making it a must-visit attraction for nature lovers.",
           "images": [
 
-            "/images/Gulab_Bagh/img1.jpeg",
-            "/images/Gulab_Bagh/img2.jpeg",
-            "/images/Gulab_Bagh/img3.jpeg",
-            "/images/Gulab_Bagh/img4.jpeg"
+            "/images/Gulab_bagh/img1.jpeg",
+            "/images/Gulab_bagh/img2.jpeg",
+            "/images/Gulab_bagh/img3.jpeg",
+            "/images/Gulab_bagh/img4.jpeg"
           ]
         }
       ]
