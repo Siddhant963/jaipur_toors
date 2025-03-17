@@ -718,4 +718,71 @@ flex-wrap:wrap;
 
 }
 
+.floating-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Contact Button */
+.contact-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Social Icons Container */
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 60px;
+  right: 10px;
+}
+
+/* Social Icon Styles */
+.social-icon {
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp {
+  background-color: #25d366;
+}
+
+.instagram {
+  background-color: #e1306c;
+}
+
+.facebook {
+  background-color: #1877f2;
+}
+
+.social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Hover Effect */
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+
+
 

@@ -1,66 +1,57 @@
-"use client";
-import React from 'react';
-import Navbar from '@/Components/Navbar';
-import Footer from '@/Components/Footer';
+'use client';
 
-const PackageDetails = ({ packageData }) => {
+import { useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import { Navigation, Pagination } from 'swiper/modules';
+
+const PackagePlacesCarousel = ({ packageData }) => {
+  const [selectedPlace, setSelectedPlace] = useState(packageData.places[0]);
+
   return (
-    <>
-      <Navbar />
-      <br/>
-      <br/>
-      <div className="w-full min-h-screen bg-gradient-to-br from-blue-50 to-green-50 py-10 px-4 font-serif text-center">
-        {/* Heading */}
-        <h1 className="text-6xl font-bold text-blue-600 mb-10 mt-20">
-          {packageData.packageName}
-        </h1>
-        <br/><br/>
-
-        {/* Places */}
-        <div className="space-y-12 w-full mx-auto pakediv">
-          
-          {packageData.places.map((place) => (
-            <div
-              key={place.id}
-              className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 "
-            >
-              {/* Place Title */}
-              <h2 className="text-4xl font-bold text-blue-800 mb-6">
-                {place.title}
-              </h2>
-              <br/><br/>
-              {/* Place Description */}
-              <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-                {place.description}
-              </p>
-
-              {/* Images Grid */}
-              <div className=" pakeimgdiv">
-                {place.images.map((image, index) => (
-                  <div
-                    key={index}
-                    className=" h-90   rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-                  >
-                      <br/><br/>
-                    <img
-                      src={image}
-                      alt={`Place ${index + 1}`}
-                      className="w-full h-76 object-cover object-fill"
-                    />
-                  </div>
-                ))}
-              </div>
-              <br/><br/>
-            </div>
-            
+    <div className="w-full min-h-screen p-6 bg-white shadow-lg flex flex-col items-center">
+      <h2 className="text-4xl font-bold text-center mb-6">{packageData.packageName}</h2>
+      
+      {/* Swiper Carousel */}
+      <div className="w-full h-[500px]">
+        <Swiper
+          navigation
+          pagination={{ clickable: true }}
+          modules={[Navigation, Pagination]}
+          className="w-6/12 h-full"
+        >
+          {selectedPlace.images.map((image, index) => (
+            <SwiperSlide key={index}>
+              <img src={image} alt={`Image ${index + 1}`} className="w-full h-full object-cover" />
+            </SwiperSlide>
           ))}
-        
-          
-        </div>
+        </Swiper>
       </div>
-      <Footer />
-    </>
+
+      {/* Places List */}
+      <h1>places we cover in this tour </h1>
+      <div className="mt-6 flex flex-wrap justify-center gap-4">
+        {packageData.places.map((place) => (
+          <button
+            key={place.id}
+            className={`px-6 py-3 text-xl font-semibold rounded-lg transition duration-300 shadow-md ${
+              selectedPlace.id === place.id ? 'bg-blue-600 text-white' : 'bg-gray-300 text-gray-900'
+            }`}
+            onClick={() => setSelectedPlace(place)}
+          >
+            {place.title}
+          </button>
+        ))}
+      </div>
+
+      {/* Place Details */}
+      <div className="mt-8 max-w-4xl p-6 border-t text-center">
+        <h3 className="text-2xl font-bold">{selectedPlace.title}</h3>
+        <p className="mt-4 text-lg text-gray-700 whitespace-pre-line leading-relaxed">{selectedPlace.description}</p>
+      </div>
+    </div>
   );
 };
 
-export default PackageDetails;
+export default PackagePlacesCarousel;

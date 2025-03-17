@@ -2,6 +2,10 @@
 import React from 'react';
 import PackageDetails from '@/Components/PackageDetails'; // Your Client Component
 import packagesData from '../../../data/all_pakeges_data.json'; // Adjust the path
+import Footer from '@/Components/Footer';
+import Navbar from '@/Components/Navbar';
+import FloatingContact from '@/Components/FloatingContact';
+import Tourinfo from '@/Components/Tourinfo';
 
 export default async function Page({ params }) {
   const { id } = await  params; // Destructure `id` from `params`
@@ -15,5 +19,18 @@ export default async function Page({ params }) {
     return <div className="text-center text-red-500 text-2xl font-semibold mt-10">Package not found!</div>;
   }
 
-  return <PackageDetails packageData={packageData} />;
+  return (
+    <>
+    <Navbar/>
+  <PackageDetails packageData={packageData} />
+  <div className="mt-220 w-full md:w-1/3 px-4 md:px-0">
+  <Tourinfo/>
+  </div>
+
+  <FloatingContact/>
+  <Footer/>
+
+    </>
+  )
+  ;
 }

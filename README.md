@@ -1,116 +1,53 @@
-import React from 'react'
+ <Navbar />
+      <br/>
+      <br/>
+      <div className="w-full min-h-screen bg-gradient-to-br from-blue-50 to-green-50 py-10 px-4 font-serif text-center">
+        {/* Heading */}
+        <h1 className="text-6xl font-bold text-blue-600 mb-10 mt-20">
+          {packageData.packageName}
+        </h1>
+        <br/><br/>
 
-const Busservicepage = () => {
-    const products = [
-      { id: 1, name: "The Catalyzer", price: "$16.00", img: "https://dummyimage.com/420x260" },
-      { id: 2, name: "Shooting Stars", price: "$21.15", img: "https://dummyimage.com/421x261" },
-      { id: 3, name: "Neptune", price: "$12.00", img: "https://dummyimage.com/422x262" },
-      { id: 4, name: "The 400 Blows", price: "$18.40", img: "https://dummyimage.com/423x263" },
-      { id: 5, name: "The Catalyzer", price: "$16.00", img: "https://dummyimage.com/424x264" },
-      { id: 6, name: "Shooting Stars", price: "$21.15", img: "https://dummyimage.com/425x265" },
-      { id: 7, name: "Neptune", price: "$12.00", img: "https://dummyimage.com/427x267" },
-      { id: 8, name: "The 400 Blows", price: "$18.40", img: "https://dummyimage.com/428x268" },
-    ];
-  return (
-    <>
-    <section className="text-gray-600 body-font">
-  <div className="container mx-auto d-flex flex-column flex-md-row align-items-center px-5 py-5">
-    <div className="col-md-6 mb-4 mb-md-0">
-      <img className="img-fluid rounded" alt="hero" src="/images/jaipur/namastebusservice.jpg" style={{height:"50vh"}}/>
-    </div>
-    <div className="col-md-6 text-center text-md-start ps-md-5">
-      <h1 className="display-4 fw-medium text-dark text-center fw-bold " style={{color:"yellow"}}>Khamma Ghani<br className="d-none d-lg-inline"/>Jaipur tour point </h1>
-      <p className="mb-4 fs-2">JaipurTourPoint.com offers reliable and affordable bus services for city tours, outstation trips, and special events. Our fleet is well-maintained, ensuring a smooth journey with comfort and safety at the core of our service.</p>
-      {/* <div className="d-flex justify-content-center justify-content-md-start">
-        <button className="btn btn-warning text-white me-3">Button</button>
-        <button className="btn btn-light text-dark">Button</button>
-      </div> */}
-    </div>
-  </div>
-</section>
+        {/* Places */}
+        <div className="space-y-12 w-full mx-auto pakediv">
+          
+          {packageData.places.map((place) => (
+            <div
+              key={place.id}
+              className="bg-white p-8 rounded-xl shadow-lg border border-gray-200 "
+            >
+              {/* Place Title */}
+              <h2 className="text-4xl font-bold text-blue-800 mb-6">
+                {place.title}
+              </h2>
+              <br/><br/>
+              {/* Place Description */}
+              <p className="text-xl text-gray-700 mb-8 leading-relaxed">
+                {place.description}
+              </p>
 
-
-        <section className="bg-secondary text-light py-5">
-          <div className="container">
-            <div className="row">
-            <div className='col-12'>
-              <h1 className='fw-bold text-light fs-1 mb-5 text-decoration-underline'>Our Vehicles</h1>
-            </div>
-              {products.map((product) => (
-                <div key={product.id} className="col-lg-3 col-md-4 col-sm-6 mb-4">
-                  <div className="card bg-secondary text-white border-0">
-                    <div className="position-relative overflow-hidden" style={{ height: "200px" }}>
-                      <img src={product.img} alt="product" className="card-img-top object-fit-cover" style={{ height: "100%", width: "100%" }} />
-                    </div>
-                    <div className="card-body">
-                      <h6 className="text-muted text-uppercase mb-1">CATEGORY</h6>
-                      <h5 className="card-title">{product.name}</h5>
-                      <p className="card-text">{product.price}</p>
-                    </div>
+              {/* Images Grid */}
+              <div className=" pakeimgdiv">
+                {place.images.map((image, index) => (
+                  <div
+                    key={index}
+                    className=" h-90   rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+                  >
+                      <br/><br/>
+                    <img
+                      src={image}
+                      alt={`Place ${index + 1}`}
+                      className="w-full h-76 object-cover object-fill"
+                    />
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
+              <br/><br/>
             </div>
-          </div>
-        </section>
-
-        <section className="text-dark bg-light py-5">
-  <div className="container">
-    <div className="row">
-      <div className="col-lg-4 mb-4">
-        <div className="text-center">
-        <div className='d-flex flex-row justify-content-center'>
-
-          <img alt="testimonial" className="rounded-circle border border-secondary p-1 " width="80" height="80" src="https://dummyimage.com/302x302"/>
-        </div>
-          <p className="mt-3 ">
-            Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk.
-            Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
-          </p>
-          <div className="bg-warning mx-auto mt-3 mb-2" style={{ width: "50px", height: "4px", borderRadius: "2px" }}></div>
-          <h5 className="fw-bold text-white">HOLDEN CAULFIELD</h5>
-          <p className="text-secondary">Senior Product Designer</p>
+            
+          ))}
+        
+          
         </div>
       </div>
-      
-      <div className="col-lg-4 mb-4">
-        <div className="text-center">
-        <div className='d-flex flex-row justify-content-center'>
-
-<img alt="testimonial" className="rounded-circle border border-secondary p-1 " width="80" height="80" src="https://dummyimage.com/302x302"/>
-</div>          <p className="mt-3 ">
-            Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk.
-            Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
-          </p>
-          <div className="bg-warning mx-auto mt-3 mb-2" style={{ width: "50px", height: "4px", borderRadius: "2px" }}></div>
-          <h5 className="fw-bold text-white">ALPER KAMU</h5>
-          <p className="text-secondary">UI Developer</p>
-        </div>
-      </div>
-
-      <div className="col-lg-4">
-        <div className="text-center">
-        <div className='d-flex flex-row justify-content-center'>
-
-<img alt="testimonial" className="rounded-circle border border-secondary p-1 " width="80" height="80" src="https://dummyimage.com/302x302"/>
-</div>          <p className="mt-3 ">
-            Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk.
-            Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
-          </p>
-          <div className="bg-warning mx-auto mt-3 mb-2" style={{ width: "50px", height: "4px", borderRadius: "2px" }}></div>
-          <h5 className="fw-bold text-white">HENRY LETHAM</h5>
-          <p className="text-secondary">CTO</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-     
-    </>
-    
-  );
-}
-
-export default Busservicepage
+      <Footer />
